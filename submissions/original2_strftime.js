@@ -40,7 +40,8 @@
 
   namespace.strftime = strftime;
   function strftime(fmt, d, locale) {
-    return _strftime(fmt, d, locale);
+    d = d || new Date;
+    return d[fmt] || (d[fmt] = _strftime(fmt, d, locale));
   }
 
   // locale is optional
