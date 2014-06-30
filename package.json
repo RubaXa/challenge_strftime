@@ -1,9 +1,13 @@
 {
-  "name": "challenge",
-  "version": "0.0.1",
-  "description": "The challenge: make strftime 50x faster",
-  "main": "bench.js",
-  "dependencies": {
-    "benchmark": "~1.x"
-  }
+	"name": "challenge",
+	"version": "0.1.0",
+	"description": "The challenge: make strftime 50x faster",
+	"main": "bench.js",
+	"scripts": {
+		"start": "node bench.js"
+	},
+	"dependencies": {
+		"benchmark": "~1.x",
+		"progress": "*"
+	}
 }
