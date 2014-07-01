@@ -6,6 +6,10 @@
 
 ---
 
+ **MacBook Pro: 2,4 GHz Intel Core i7, 8 GB 1333 MHz DDR3**
+
+---
+
 
 ## Absolute Winners (timestamp + random)
 ```
